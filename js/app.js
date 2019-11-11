@@ -11,15 +11,14 @@ $.fatNav();
 //typeit.js
 $('#typed-header-text').typeIt({
     strings: [
-        "og jeg er <span class='color-p'>journalist</span>.",
-        "og jeg <span class='color-p'>utvikler</span> ting og tang.",
-        "og jeg lager <span class='color-p'>video</span>.",
-        "og jeg tar mange <span class='color-p'>bilder</span>.",
+        "og jeg driver <span class='color-p'>kode24.no</span>.",
         "og jeg spiller <span class='color-p'>pingpong</span>.",
-        "og jeg lager <span class='color-p'>tullete</span> musikk.",
+        "og jeg <span class='color-p'>koder</span> ting og tang.",
         "og jeg kommer fra <span class='color-p'>Porsgrunn</span>.",
-        "og jeg kan <span class='color-p'>ikke</span> gå på ski.",
-        "og jeg bruker <span class='color-p'>briller</span>."
+        "og jeg liker å ta <span class='color-p'>bilder</span>.",
+        "og jeg lager <span class='color-p'>tullete</span> musikk.",
+        "og jeg bruker <span class='color-p'>briller</span>.",
+        "og jeg er <span class='color-p'>imponert</span> over tålmodigheten din."
     ],
     speed: 50,
     autoStart: false,
