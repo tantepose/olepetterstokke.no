@@ -35,6 +35,11 @@ h3 {
   font-size: 2.5em; 
 }
 
+h3:hover {
+  color: var(--foreground-color);
+  border-bottom: 3px solid var(--foreground-color);
+}
+
 p {
   font-size: 1.3em;
   margin-bottom: .8em;
@@ -159,10 +164,6 @@ a:hover {
   background: -ms-linear-gradient(-45deg, rgba(244, 43, 3, 0.1) 0%, rgba(255, 68, 0, 0.49) 100%); */
   background: linear-gradient(135deg, var(--highlight-color-gradient) 0%, var(--background-color-gradient) 100%);
   /* filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f42b03', endColorstr='#ff4400', GradientType=1 );  */
-}
-
-.box-image:hover:after {
-  background: none;
 }
 
 .box-image img {
