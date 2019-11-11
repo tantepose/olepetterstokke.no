@@ -29,7 +29,7 @@ h2 {
 }
 
 h3 {
-  border-bottom: 10px solid var(--highlight-color);
+  border-bottom: 3px solid var(--highlight-color);
   margin-bottom: 1em;
   margin-top: .5em;
   font-size: 2.5em; 
@@ -94,6 +94,11 @@ footer li {
 footer a {
   color: var(--foreground-color);
   font-size: 1.3em; 
+}
+
+.tools {
+  text-align: right;
+  color: var(--highlight-color);
 }
 
 .some {
